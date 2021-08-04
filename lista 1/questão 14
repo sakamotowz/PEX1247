@@ -1,0 +1,14 @@
+include<stdio.h>
+include<math.h>
+
+main()
+{
+float aux,cateto1,cateto2;
+
+printf("Digite o cateto 1");
+scanf("%f",&cateto1);
+printf("Digite o cateto 2");
+scanf("%f",&cateto2);
+aux=(cateto1cateto1)+(cateto2cateto2);
+printf("A hipotenusa é: %f",sqrt(aux));
+}
