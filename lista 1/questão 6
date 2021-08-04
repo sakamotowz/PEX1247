@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+ int main()
+{
+    int n, fatorial, i;
+    //fatorial = 1;
+
+
+	printf("INFORME UM NUMERO N:");
+    scanf("%d", &n);
+    
+
+    fatorial = 1;
+    i = 1;
+
+    while(i <= n){
+  
+        fatorail = fatorial * i;
+        //i++;
+        printf("fatoracao de %d =  %d\n", i, fatorial);
+        i++;
+    }
+    printf("o valor da fatoracao que comeca em 1 ate %d = %d", n, fatorail);
+ 
+	return 0;
+}
