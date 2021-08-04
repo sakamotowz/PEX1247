@@ -1,0 +1,19 @@
+#include <stdio.h>
+ 
+int main(void)
+{
+int i, j, n, m;
+char c;
+ printf("informe o caractere a ser imprimido: ");
+ scanf("%c",&c);
+printf("digite o numero de linhas:");
+ scanf("%d",&m);
+ printf("digite o numero de colunas:");
+ scanf("%d",&n);
+ for (i = 1; i <= m; i = i + 1){
+  for (j = 1; j <= n; j = j + 1) 
+ printf("%c",c);
+ printf("\n");
+ }
+ return 0;
+ }
