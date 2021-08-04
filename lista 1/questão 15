@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main(void)
+{
+int i, j, n, m;
+printf("digite o numero de linhas:");
+ scanf("%d",&m);
+ printf("digite o numero de colunas:");
+ scanf("%d",&n);
+ for (i = 1; i <= m; i = i + 1){
+  for (j = 1; j <= n; j = j + 1)
+ printf("*");
+ printf("\n");
+ }
+ return 0;
+ }
