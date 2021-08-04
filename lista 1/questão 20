@@ -15,3 +15,7 @@ while (n>0)
   soma = soma + resto;
 
 }
+
+printf("A soma dos inteiros desse numero é: %d \n",soma);
+
+}
