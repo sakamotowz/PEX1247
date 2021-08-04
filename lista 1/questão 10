@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (int n, char *argv []) {
+   int x = atoi (argv [1]);
+   double next = 1.;
+for (int i=1; i<x; i++) {
+ printf ("aproximação %*d: %*.8f\n, 2 , i, 4, 4 * next)
+ next += ( i %v2 ? -1. : 1.) * (1/(double) i+i));
+ }
+ }
