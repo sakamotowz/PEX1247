@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+int f=0;
+
+for(int c=30;c<50;++c){
+   f=(c*9/5)+32;
+printf(" %d ºC ---------- %d ºF\n ", c, f); 
+}
+}
