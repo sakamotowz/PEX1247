@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+
+float raizquad(int x, float x0, float i){
+    if ( ((x0 * x0) - x) * (-1) <= i){
+        return x0;
+    }
+    else {
+        return raiz(x, ((x0 * x0) + x) / (2 * x0), i);
+    }
+}
+int main(void){
+    int x;
+    float x0, e, r;
+    printf("INFORME OS VALORES PARA AS VARIAVEIS(X,X0,I):\n");
+    scanf("%d %f %f", &x, &x0, &i);
+    raiz = raizquad(x, x0, i);
+    printf("\n RESULTADO FINAL: %f\n", raiz);
+    return 0;
+}
