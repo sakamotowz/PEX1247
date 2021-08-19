@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <math.h>
+long int fatorcao(int n) {
+    if(n > 1){
+        return n *  fatorcao(n-1);
+    }
+    else{
+        return 1;
+    }
+}
+int fun(int n, int i){
+    return fatorcao(n) / (fatorcao(k) * fatorcao(n-k));
+}
+int main(void){
+    int n,i,Linha;
+    long int resultado;
+    printf("Defina a quantidade de linhas desejadas\n");
+    scanf("%d", &Linha);
+    for(n = 0; n < linha; n++){
+        for(i = 0; i <= n; i++){
+            resultado = fun(n,i);
+            printf(" %ld", resultado);
+        }
+        printf("LINHAS: \n");
+    }
+
+    return 0;
+}
